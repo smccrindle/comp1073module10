@@ -32,6 +32,8 @@
 			console.log(iScreamInc);
 			// Populate the HEADER
 			populateHeader(iScreamInc);
+			// Show the top flavors in the SECTION above
+			showTopFlavors(iScreamInc);
 		}
 		/* STEP 9: Build out the populateHeader() function */
 		function populateHeader(jsonObj) {
@@ -43,22 +45,27 @@
 			header.appendChild(header1);
 		}
 		/* STEP 10a: Assemble the showTopFlavors() function */
-
+		function showTopFlavors(jsonObj){
 			// STEP 10b: Bind the JSON topFlavors object to a var
-
+			var topFlavors = jsonObj['topFlavors'];
 			// STEP 10c: Loop through the topFlavors object
-
+			for (var i = 0; i < topFlavors.length; i++){
 				// STEP 10d: build HTML elements for the content
-
+				var article = document.createElement('article');
+				var h2 = document.createElement('h2');
+				var img = document.createElement('img');
 				// STEP 10e: Set the textContent property for each of the above elements (except the UL), based on the JSON content
-
+				h2.textContent = topFlavors[i].name;
+				img.setAttribute('src', 'images/' + topFlavors[i].image);
 				// STEP 10f: Build a loop for the ingredients array in the JSON
 
 				// STEP 10g: Append each of the above HTML elements to the ARTICLE element
-
+				article.appendChild(h2);
+				article.appendChild(img);
 				// STEP 10h: Append each complete ARTICLE element to the SECTION element
-
-
+				section.appendChild(article);
+			};
+		};
 		// This page inspired by and adapted from https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/JSON
 
 		// A special thanks to https://openclipart.org/detail/285225/ice-cream-cones for the awesome ice cream cone illustrations
