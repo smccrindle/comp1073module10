@@ -26,5 +26,16 @@
       ],
       "image": "peach-mango.svg"
     }
+    {
+      "name": "Perfect Peach Mango2",
+      "calories": 350,
+      "type": "sorbet",
+      "ingredients": [
+        "peach purée",
+        "mango chunks",
+        "clover honey"
+      ],
+      "image": "peach-mango.svg"
+    }
   ]
 }
