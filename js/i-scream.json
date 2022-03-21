@@ -27,15 +27,15 @@
       "image": "peach-mango.svg"
     },
     {
-      "name": "Perfect Peach Mango2",
-      "calories": 350,
-      "type": "sorbet",
+      "name": "Stupendous Strawberry",
+      "calories": 375,
+      "type": "frozen yogurt",
       "ingredients": [
-        "peach purée",
-        "mango chunks",
-        "clover honey"
+        "sliced strawberries",
+        "shortcake chunks",
+        "super sprinkles"
       ],
-      "image": "peach-mango.svg"
+      "image": "strawberry-sprinkle.svg"
     }
   ]
 }
