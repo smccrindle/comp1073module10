@@ -25,17 +25,6 @@
         "clover honey"
       ],
       "image" : "peach-mango.svg"
-    },
-    {
-      "name" : "Stupendous Strawberry",
-      "calories" : 375,
-      "type" : "frozen yogurt",
-      "ingredients" : [
-        "sliced strawberries",
-        "chocolate dip",
-        "super sprinkles"
-      ],
-      "image" : "strawberry-sprinkle.svg"
     }
   ]
 }
